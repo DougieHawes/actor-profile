@@ -1,0 +1,113 @@
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.7);
+  background-color: #0000ff;
+  border-radius: 10px;
+  box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.7);
+}
+
+* {
+  list-style: none;
+  margin: 0;
+  outline: none;
+  text-decoration: none;
+}
+
+.app .jumbotron {
+  border-bottom: 6px double #0000ff;
+  height: 210px;
+}
+
+.app .headshots {
+  padding-top: 70px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.app .headshots .headshot {
+  border: 6px double #0000ff;
+  height: 260px;
+  margin: 0 auto;
+  overflow-y: hidden;
+  width: 210px;
+}
+
+.app .headshots .headshot .primary {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+  width: 210px;
+}
+
+.app .headshots .headshot-gallery {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.app .headshots .headshot-gallery .prev-headshot,
+.app .headshots .headshot-gallery .next-headshot {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: 0.3s color ease-in-out;
+  transition: 0.3s color ease-in-out;
+}
+
+.app .headshots .headshot-gallery .prev-headshot {
+  left: 4%;
+}
+
+.app .headshots .headshot-gallery .next-headshot {
+  right: 4%;
+}
+
+.app .headshots .headshot-gallery .gallery-headshot {
+  max-height: 100vh;
+}
+
+.app .headshots .headshot-gallery .close-gallery {
+  background-color: rgba(0, 0, 0, 0.3);
+  bottom: 14%;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 28px;
+  left: 50%;
+  padding: 7px 2%;
+  position: fixed;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: 0.3s color ease-in-out;
+  transition: 0.3s color ease-in-out;
+}
+
+.app .headshots .headshot-gallery .next-headshot:hover,
+.app .headshots .headshot-gallery .prev-headshot:hover,
+.app .headshots .headshot-gallery .close-gallery:hover {
+  color: #0000ff;
+}
+
+.app .body .title-box {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.app .body .title-box .name {
+  font-size: 70px;
+}
+/*# sourceMappingURL=style.css.map */

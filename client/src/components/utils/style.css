@@ -1,0 +1,42 @@
+.button {
+  background-color: #ffffff;
+  border: 2px solid #0000ff;
+  color: #0000ff;
+  cursor: pointer;
+  font-size: 28px;
+  height: 42px;
+  width: 100%;
+}
+
+.input {
+  border: 2px solid #0000ff;
+  margin: 7px 0;
+  width: 100%;
+}
+
+.input1,
+.input3 {
+  font-size: 28px;
+  height: 42px;
+}
+
+.input2 {
+  font-size: 18px;
+  height: 210px;
+}
+
+.input3::-webkit-file-upload-button {
+  padding-right: 18px;
+  visibility: hidden;
+}
+
+.input3::before {
+  color: #ffffff;
+  content: "Select Image";
+  background-color: #0000ff;
+  border: none;
+  cursor: pointer;
+  font-size: 28px;
+  margin-left: 3px;
+}
+/*# sourceMappingURL=style.css.map */

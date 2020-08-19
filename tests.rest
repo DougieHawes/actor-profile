@@ -1,0 +1,41 @@
+GET http://localhost:8000/auth
+
+###
+POST http://localhost:8000/auth
+Content-Type: application/json
+
+{
+    "email":"joshuabroadstone@hotmail.com",
+    "password":"123456"
+}
+
+###
+GET http://localhost:8000/gallery
+
+###
+GET http://localhost:8000/profile
+
+###
+POST http://localhost:8000/profile
+Content-Type: application/json
+
+###
+GET http://localhost:8000/post
+
+###
+POST http://localhost:8000/user
+Content-Type: application/json
+
+{
+    "name":"Joshua Broadstone",
+    "email":"joshuabroadstone@hotmail.com",
+    "password":"123456"
+}
+
+###
+GET http://localhost:8000/user
+Content-Type: application/json
+
+{
+    "email":"joshuabroadstone@hotmail.com"
+}
